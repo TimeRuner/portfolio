@@ -1,0 +1,32 @@
+.promo{
+    min-height: 100vh;//! перша секція сайту завжди буде по розміру екрану користувача
+    position: relative;
+    background: url('../img/main_bg.jpg') no-repeat 50%/cover;
+    padding: 205px 0 0 0;
+    &__title{
+        width: 535px;
+        margin: 10px 0 0 0;
+    }
+    &__btns{
+        margin: 25px 0 0 0;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    &__subtitle{
+        position: relative;
+        padding: 0 0 0 10px;
+        @include before_circle;
+        z-index: 2;
+    }
+    &__link{
+        color: #000;
+        font-weight: bold;
+        height: 45px;
+        padding: 12px 25px;
+        &:hover{
+            color: #000;
+            text-decoration: none;
+        }
+    }
+}
