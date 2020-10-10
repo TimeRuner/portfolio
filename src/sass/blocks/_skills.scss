@@ -42,7 +42,7 @@
         padding: 120px 0 0 0;
         display: grid;
         grid-template: repeat(2, 70px) / repeat(3, 350px);
-        grid-auto-rows: 170px;
+        grid-auto-rows: 70px;
         grid-gap: 30px 45px;
         &-header{
             display: flex;
